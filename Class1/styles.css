@@ -1,0 +1,120 @@
+/*---- menu ----*/
+.menu {
+	text-align: center;
+	padding: 5px 100px;
+	background: #cccccc;
+}
+.menu li, .menu a {
+	display: inline-block;
+	text-decoration: none;
+	color: green;
+}
+
+/*---- menu separators ----*/
+.menu li:not(:first-child):before {
+	content: " | ";
+    padding: 5px;
+}
+.menu a:not(:first-child):before {
+	content: " | ";
+    padding: 5px;
+}
+
+/*---- fonts ----*/
+h1, h2, h3 {
+	font-size: 18px;
+	text-align: right;
+	margin: 18px 0px;
+}
+
+p {
+	font-size: 13px;
+}
+
+.al_left {
+	text-align: left;
+}
+
+.pp_text {
+    color: #565379;
+	text-align: left;
+	font-size: 14px;
+}
+
+/*---- blocks ----*/
+section {
+	background-color: #eeeeee;
+}
+
+aside {
+	background: #eeeeee;
+}
+main {
+	background: #eeeeee;
+}
+
+article, .article {
+	background-color: #cccda7;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px
+}
+
+/*---- pink sections ----*/
+.article2 {
+	background-color: #ccbaa9;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px	
+}
+
+.pink {
+	background-color: #ccbaa9;
+}
+
+/*---- buttons ----*/
+button, .click_lc {
+    background-color: #565379;
+    border: none;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+	font-size: 14px;
+	border-radius: 4px;
+	font-family: inherit;
+}
+
+.click_lc2 {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+	font-size: 14px;
+	border-radius: 4px;
+	font-family: inherit;
+}
+
+.gray {
+	background-color: #555555;
+}
+
+/*---- the big split and a pain in the rear ----*/
+.left-side {
+	float: left;
+	width: 30%;
+}
+
+.right-side {
+	float: right;
+	border-radius: 0px;
+	width: 70%;
+}
+
+.half-width {
+	float: left;
+	border-radius: 0px;
+	width: calc(50% - 40px);
+}
