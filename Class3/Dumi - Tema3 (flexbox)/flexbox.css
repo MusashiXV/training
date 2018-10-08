@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.general {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+    padding: 30px;
+
+}
+
+/*----------------- sectiunile principale ----------------*/
+
+.row1 {
+    display: flex;
+    background: #53d4ea;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+    margin-bottom: 20px;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.row4 {
+    display: flex;
+    height: 100px;
+    background: #ffa200;
+    margin-top: 30px;
+}
+
+/*------------------ coloanele din row2 -------------------*/
+
+.col-l {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.col-r {
+    display: flex;
+    flex-direction: column;
+    flex: 1.5;
+   }
+
+/*-------------------- cutiile colorate -------------------*/
+
+.unu {
+    display: flex;
+    background: #fac7dd;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.doi {
+    display: flex;
+    background: #93cc61;
+    flex: 1.2;
+}
+
+.trei {
+    display: flex;
+    background: #fac803;
+    flex: 2;
+    margin-bottom: 20px;
+}
+
+.patru {
+    display: flex;
+    background: gray;
+    flex: 1;
+}
+
+.cinci {
+    display: flex;
+    background: #00c075;
+    flex: 1.5;
+    margin-right: 20px;
+}
+
+.sase {
+    display: flex;
+    background: #fac7dd;
+    flex: 1;
+}
